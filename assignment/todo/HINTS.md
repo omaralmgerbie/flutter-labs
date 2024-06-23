@@ -1,7 +1,7 @@
 ## Hints
 
-here you will find hints to assist you with the assignment.
-also if you have any questions submit an `issue` in this repo with a clear title and description for your question or if you're having issue implementing the requirements.
+I have included some hints here to help you with the assignment.
+also if you have any questions submit an `issue` in this repo with a clear title and description for your question or if you're having issues implementing the requirements.
 
 
 ### Structure
@@ -28,6 +28,6 @@ here you will capture the text from the `TextField` and pass it back to the `Hom
 
 ### Flow
 
-<video src='media/video.mp4' alt="Flow" width="200"/>
+<video src='https://github.com/omaralmgerbie/flutter-labs/blob/main/assignment/todo/media/video.mp4' alt="Flow" width="200"/>
 
 
