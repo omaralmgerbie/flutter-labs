@@ -5,6 +5,7 @@ here you will find all the materials for the flutter lab.
 ### Assignments
 
 * [Todo List App](assignment/todo/README.md)
+* [Named Routes](assignment/named_routes/README.md)
 
 
 ### Materials
@@ -17,13 +18,18 @@ here you will find all the materials for the flutter lab.
 ```bash
 flutter-lab
 ├── assignment
-│   └── todo
+│   ├── todo
+│   │   ├── README.md
+│   │   ├── hints.md
+│   │   ├── Media
+│   │   │   └── Home.png
+│   │   │   └── Task.png
+│   │   │   └── video.mp4
+│   │   └── Code
+│   │       └── README.md
+│   └── named_routes
 │       ├── README.md
 │       ├── hints.md
-│       ├── Media
-│       │   └── Home.png
-│       │   └── Task.png
-│       │   └── video.mp4
 │       └── Code
 │           └── README.md
 ├── README.md
