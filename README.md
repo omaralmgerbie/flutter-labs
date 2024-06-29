@@ -1,36 +1,16 @@
-## FLutter Lab
+# first_app
 
-here you will find all the materials for the flutter lab.
+A new Flutter project.
 
-### Assignments
+## Getting Started
 
-* [Todo List App](assignment/todo/README.md)
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-### Materials
-<!-- flutter widget of the week -->
-* [Flutter Widget of the Week](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-### Repository Structure
-
-```bash
-flutter-lab
-├── assignment
-│   └── todo
-│       ├── README.md
-│       ├── hints.md
-│       ├── Media
-│       │   └── Home.png
-│       │   └── Task.png
-│       │   └── video.mp4
-│       └── Code
-│           └── README.md
-├── README.md
-└── .gitignore
-```
-
-### Disclaimer
-
-* This repository is for educational purposes only.
-* all the assignments will be accepted only through this repository.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
