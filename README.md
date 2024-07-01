@@ -2,6 +2,10 @@
 
 here you will find all the materials for the flutter lab.
 
+### References
+- [Dart](references/dart/README.md)
+- [Flutter](references/flutter/README.md)
+
 ### Assignments
 
 * [Todo List App](assignment/todo/README.md)
@@ -32,6 +36,11 @@ flutter-lab
 │       ├── hints.md
 │       └── Code
 │           └── README.md
+├── references
+│   └── dart
+│   │   └── README.md
+│   ├── flutter
+│       └── README.md
 ├── README.md
 └── .gitignore
 ```
