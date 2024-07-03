@@ -16,6 +16,26 @@ in this project, you will create a flutter application as in this [figma file](h
   - [ ] each task will have a title, description, and a checkbox.
   - [ ] a floating action button that will open a dialog to add a new task.
 
+- [ ] optional features
+  - [ ] field validation on the login page.
+  - [ ] error handling on the login page if the user inputs false data and the api returns unsuccessful status.
+  - [ ] loading indicator.
+
+## resources
+in this project you'll need to call an external `REST api` in order to login via the login page and your input need to be correct in order to login successfully.
+API url
+```
+https://it-flutter-lab.koyeb.app
+```
+and you can access the docs via:
+```
+https://it-flutter-lab.koyeb.app/docs
+```
+
+or download the json collection:
+```
+https://it-flutter-lab.koyeb.app/docs-json
+```
 
 ## Due Date
 you will submit this project before `20-07-2024` and the submission will be through the repository as a `draft` pull request.
