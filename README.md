@@ -2,6 +2,9 @@
 
 here you will find all the materials for the flutter lab.
 
+# Project (important)
+* [Flutter Project](project/README.md)
+
 ### References
 - [Dart](references/dart/README.md)
 - [Flutter](references/flutter/README.md)
@@ -37,9 +40,13 @@ flutter-lab
 │       └── Code
 │           └── README.md
 ├── references
-│   └── dart
+│   ├── dart
 │   │   └── README.md
-│   ├── flutter
+│   └── flutter
+│       └── README.md
+├── project
+│   ├── README.md
+│   └── code (you will submit your code here)
 │       └── README.md
 ├── README.md
 └── .gitignore
