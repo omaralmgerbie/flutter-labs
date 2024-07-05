@@ -1,13 +1,9 @@
 Directory Structure:
-todo_app/
-├── lib/
-│   ├── models/
-│   │   └── todo.dart
-│   ├── pages/
-│   │   ├── home_page.dart
-│   │   ├── not_found_page.dart
-│   │   └── task_page.dart
-│   ├── providers/
-│   │   └── todo_provider.dart
-│   └── main.dart
-└── pubspec.yaml
+lib/
+├── create_task_page.dart
+├── home_page.dart
+├── main.dart
+├── not_found_page.dart
+├── task_provider.dart
+└── update_task_page.dart
+
