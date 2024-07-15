@@ -1,4 +1,4 @@
-Code understanding
+Code understanding :
 * The 'main.dart' serves the entry point for the application.
 * 'login_page.dart'  contains the login screen with form validation.( _errorMessage stores any login errors.
 _login simulates an API call and handles navigation on success or error display on failure.The UI A Form widget with TextFormField widgets for email and student number, an ElevatedButton for login, and a CircularProgressIndicator for loading.)
