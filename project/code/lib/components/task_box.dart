@@ -29,17 +29,17 @@ class _TaskBoxState extends State<TaskBox> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(10.0),
-      padding: EdgeInsets.all(10.0),
+      margin: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
-        color: Colors.lightBlue[100],
+        color: Theme.of(context).colorScheme.secondary,
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 5,
             blurRadius: 7,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),
@@ -50,7 +50,7 @@ class _TaskBoxState extends State<TaskBox> {
             widget.task.title,
             style: TextStyle(
               fontSize: 18.0,
-              color: Colors.blue[900],
+              color: Theme.of(context).colorScheme.onSecondary,
             ),
           ),
           Row(
@@ -73,14 +73,14 @@ class _TaskBoxState extends State<TaskBox> {
                   widget.onUpdatePressed(widget.task);
                 },
                 icon: const Icon(Icons.update),
-                color: Colors.green,
+                color: Theme.of(context).colorScheme.onSecondary,
               ),
               IconButton(
                 onPressed: () {
                   widget.onDeletePreesed(widget.task.id ?? 0);
                 },
                 icon: const Icon(Icons.delete),
-                color: Colors.red,
+                color: Theme.of(context).colorScheme.error,
               ),
             ],
           )

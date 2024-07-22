@@ -49,7 +49,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
       try {
         if (widget.isUpdate) {
           Task task = Task(id: widget.taskId!, title: taskText, isDone: false);
-          await dbManager.update(task);
+          await dbManager.updateTask(task);
         } else {
           Task task = Task(title: taskText, isDone: false);
           await dbManager.createTask(task);

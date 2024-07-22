@@ -1,7 +1,7 @@
 import 'package:code/models/task.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import '../widgets/task_box.dart';
+import 'task_box.dart';
 import '../db/db_manager.dart';
 import './toast.dart';
 
@@ -24,7 +24,7 @@ class TaskContainerState extends State<TaskContainer> {
 
   Future<void> listAllTasks() async {
     try {
-      final allTasks = await widget.dbManager.findAll();
+      final allTasks = await widget.dbManager.findAllTasks();
       setState(() {
         tasks = allTasks.map((task) => task).toList();
       });
@@ -40,7 +40,7 @@ class TaskContainerState extends State<TaskContainer> {
 
   void _deleteTask(int id) async {
     try {
-      await widget.dbManager.delete(id);
+      await widget.dbManager.deleteTask(id);
       listAllTasks();
     } catch (error) {
       showToast("حدث خطأ!");
@@ -50,7 +50,7 @@ class TaskContainerState extends State<TaskContainer> {
   void _updateTask(Task task) async {
     try {
       final result = await Navigator.of(context).pushNamed(
-        '/task-screen',
+        '/tasks',
         arguments: {
           'title': 'Update Task',
           'initialTask': task.title,
@@ -68,7 +68,7 @@ class TaskContainerState extends State<TaskContainer> {
 
   void _done(Task task) async {
     try {
-      await widget.dbManager.update(task);
+      await widget.dbManager.updateTask(task);
     } catch (error) {
       showToast("حدث خطأ!");
     }

@@ -21,7 +21,7 @@ class _TasksScreenState extends State<TasksScreen> {
   }
 
   Future<void> _handleLoadAddTodoScreen() async {
-    final result = await Navigator.of(context).pushNamed("/task-screen");
+    final result = await Navigator.of(context).pushNamed("/tasks");
     if (result == true) {
       taskContainerKey.currentState?.listAllTasks();
     }
@@ -31,8 +31,8 @@ class _TasksScreenState extends State<TasksScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: TaskContainer(key: taskContainerKey, dbManager: dbManager),
